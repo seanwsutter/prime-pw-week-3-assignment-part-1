@@ -1,4 +1,30 @@
-console.log('****** Array Practice *******');
+/* NOTES
+let arrayName = ['coke', 'pepsi', 'sprite'] - coke[0], pepsi[1], sprite[2]
+arrayName.length = 4 - highest index is always 1 less than length
+arrayName.indexOf('x') - checks if variable is in array, -1 means not in array.
+arrayName.push('x') - adds something to END of array
+arrayName.pop('x') - removes something from END of array
+arrayName.unshift('x') - adds something to BEGINNING of array
+arrayName.shift('x') - removes something from BEGINNING of array
+
+LOOPS - repeated actions, block of code, depends on conditional being true
+while loop - will continue to run repeated action while condition is true
+for loop - 'for a number of times/items', example.) Use a for loop for each item in an array
+
+while (hungry) { // (hungry) - conditional, if (hungry) is true run {keep eating}
+  keep eating
+} // Will repeat as long as (hungry) is true
+
+
+
+
+
+*/
+
+
+
+
+console.log('****** Array Practice *******')
 
 // 1. Creating arrays
 console.log('--- 1. Practice creating arrays ---');
@@ -8,37 +34,35 @@ let animalArray = ['fish', 'cat', 'bird', 'dog'];
 console.log('Animals are: ', animalArray);
 
 // 1.a. TODO: Make an array with some favorite foods
-
-
-// 1.b. TODO: Log your array of foods to the console with a message, similar 
+let favFoods = ['pizza', 'tacos', 'bacon', 'chicken', 'steak']
+// 1.b. TODO: Log your array of foods to the console with a message, similar
 //      to the example above
-
-
+console.log('Some favorite foods: ', favFoods);
 
 // 2. Array.length - tells you how many items are in the array
 console.log('--- 2. Length of an array ---');
 
-// Example: How many animals are in the array? 
+// Example: How many animals are in the array?
 console.log('Number of animals:', animalArray.length);
 
 // 2.a. TODO: Log to the console the number of foods in your array
-
+console.log('Number of favorite foods:', favFoods.length);
 
 // 3. Accessing array items
 console.log('--- 3. Accessing items in an array ---');
 
 // Example: Log the first animal from the array using it's array index
-console.log('First animal is', animalArray[0])
+console.log('First animal is:', animalArray[0]);
 
-// 3.a. TODO: Log the second animal in the array 
+// 3.a. TODO: Log the second animal in the array
+console.log('Second animal is:', animalArray[1]);
 
+// 3.b. TODO: Log the last animal in the array using it's array index
+console.log('Last animal is:', animalArray[3]);
 
-// 3.b. TODO: Log the last animal in the array using it's array index 
-
-
-// 3.c. (STRETCH) TODO: Log the last animal by using the array length, 
+// 3.c. (STRETCH) TODO: Log the last animal by using the array length,
 //      instead of the exact index number of the last item
-
+console.log('Last animal is:', animalArray[animalArray.length - 1]); 
 
 
 // 4. Adding & Removing Array Items
@@ -57,7 +81,7 @@ let removedAnimal = animalArray.pop();
 console.log('Removed the last animal', removedAnimal);
 console.log('The animals are now', animalArray);
 
-// 4.b. TODO: Remove the food at the end of your array & 
+// 4.b. TODO: Remove the food at the end of your array &
 //      log both the food removed and the updated array
 
 
@@ -73,5 +97,5 @@ removedAnimal = animalArray.shift();
 console.log('Removed the first animal', removedAnimal);
 console.log('The animals are now', animalArray);
 
-// 4.d TODO: Remove the food at the beginning of your array & 
+// 4.d TODO: Remove the food at the beginning of your array &
 //     log both the food removed and the updated array
