@@ -1,5 +1,4 @@
 /*
-
 NOTES
 
 let arrayName = ['coke', 'pepsi', 'sprite'] - coke[0], pepsi[1], sprite[2]
@@ -10,7 +9,9 @@ arrayName.pop() - removes something from END of array
 arrayName.unshift('x') - adds something to BEGINNING of array
 arrayName.shift() - removes something from BEGINNING of array
 
-LOOPS - repeated actions, block of code, depends on conditional being true
+LOOPS
+
+repeated actions, block of code, depends on conditional being true
 while loop - will continue to run repeated action while condition is true
 for loop - 'for a number of times/items', example.) Use a for loop for each item in an array
 
@@ -18,7 +19,15 @@ while (hungry) { // (hungry) - conditional, if (hungry) is true run {keep eating
   keep eating
 } // Will repeat as long as (hungry) is true
 
+DISCUSSION QUESTION
+
+let eggOmlette = ['greenOnions', 'organicEggs', 'babySpinach', 'dicedMushrooms'];
+let breakfastSandwhich = ['hotSalsa', 'cheddarCheese', eggOmlette];
+breakfastSandwhich.unshift('bagelTop');
+breakfastSandwhich.push('bagelBottom');
+console.log('Breakfast sandwhich from top to bottom:', breakfastSandwhich);
 */
+
 console.log('****** Array Practice *******')
 // 1. Creating arrays
 console.log('--- 1. Practice creating arrays ---');
