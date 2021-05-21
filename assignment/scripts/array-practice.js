@@ -1,4 +1,7 @@
-/* NOTES
+/*
+
+NOTES
+
 let arrayName = ['coke', 'pepsi', 'sprite'] - coke[0], pepsi[1], sprite[2]
 arrayName.length = 4 - highest index is always 1 less than length
 arrayName.indexOf('x') - checks if variable is in array, -1 means not in array.
@@ -15,17 +18,8 @@ while (hungry) { // (hungry) - conditional, if (hungry) is true run {keep eating
   keep eating
 } // Will repeat as long as (hungry) is true
 
-
-
-
-
 */
-
-
-
-
 console.log('****** Array Practice *******')
-
 // 1. Creating arrays
 console.log('--- 1. Practice creating arrays ---');
 
@@ -35,8 +29,8 @@ console.log('Animals are: ', animalArray);
 
 // 1.a. TODO: Make an array with some favorite foods
 let favFoods = ['pizza', 'tacos', 'bacon', 'chicken', 'steak']
-// 1.b. TODO: Log your array of foods to the console with a message, similar
-//      to the example above
+
+// 1.b. TODO: Log your array of foods to the console with a message, similar to the example above
 console.log('Some favorite foods in favFoods array: ', favFoods);
 
 // 2. Array.length - tells you how many items are in the array
